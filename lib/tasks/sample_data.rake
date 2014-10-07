@@ -39,4 +39,8 @@ def make_relationships
   followers      = users[3..40]
   followed_users.each { |followed| user.follow!(followed) }
   followers.each      { |follower| follower.follow!(user) }
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> follow_fix
